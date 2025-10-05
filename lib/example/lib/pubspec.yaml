@@ -1,0 +1,16 @@
+name: chux_example
+description: Example app for Chux state management
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chux:
+    path: ../
+
+flutter:
+  uses-material-design: true
